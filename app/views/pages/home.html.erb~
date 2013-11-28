@@ -1,2 +1,7 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Welcome to One Month Rails!</h1>
+<p>
+ You've found the home page for the Pinterest like web app
+</p>
+<p>
+ <%= link_to "Sign up Now!", '#' %>
+</p>
