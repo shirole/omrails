@@ -1,3 +1,4 @@
+<div class="center hero-unit">
 <h1>Welcome to One Month Rails!</h1>
 <p>
  You've found the home page for the Pinterest like web app
@@ -5,3 +6,4 @@
 <p>
  <%= link_to "Sign up Now!", '#' %>
 </p>
+</div>
