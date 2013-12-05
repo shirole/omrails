@@ -27,7 +27,7 @@ class PinsController < ApplicationController
   # GET /pins/new
   # GET /pins/new.json
   def new
-    @pin = curren_user.pins.new
+    @pin = current_user.pins.new
 
     respond_to do |format|
       format.html # new.html.erb
