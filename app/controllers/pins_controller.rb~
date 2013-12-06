@@ -5,7 +5,7 @@ class PinsController < ApplicationController
   before_filter :authenticate_user!, except: [:index]
 
   def index
-    @pins = Pin.all
+    @pins = Pin.order("created-at desc")
 
     respond_to do |format|
       format.html # index.html.erb
@@ -27,7 +27,7 @@ class PinsController < ApplicationController
   # GET /pins/new
   # GET /pins/new.json
   def new
-    @pin = curren_user.pins.new
+    @pin = current_user.pins.new
 
     respond_to do |format|
       format.html # new.html.erb
