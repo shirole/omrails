@@ -13,3 +13,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore Paperclip uploaded files
+/public/system
+
+#Ignore sample images
+/sampleimages
