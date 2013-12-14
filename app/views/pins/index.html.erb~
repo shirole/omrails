@@ -1,4 +1,4 @@
-<h4> Testing </h4>
+<%= render 'pages/home' %>
 <div id="pins">
   <%= render @pins %>
 </div>
